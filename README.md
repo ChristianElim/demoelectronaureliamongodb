@@ -37,6 +37,17 @@ Home Page: https://mongodb.github.io/node-mongodb-native/index.html
 
 These prerequisites must be installed as described below.
 
+- Install or have access to MongoDB.  You can use either an existing local MongoDB server or a remote MongoDB server.
+
+	If you need one, install it and either start MongoDB or configure it to run automatically.  Please see the MongoDB documentation for your operating system. Please perform a test connection to your MongoDB server before proceeding.
+
+	This application uses the default MongoDB connection string to connect to the test database that is installed automatically.
+	
+	Default connection string:	`mongodb://localhost:27017/test`
+	
+	If you are using a remote MongoDB server or you changed the default port on local install, you'll need to modify the above connection string.  The connection string is in the `/src/home/mongoService.js` file.
+
+
 - Install node.js
 
 - Install the Electron Prebuilt globally:

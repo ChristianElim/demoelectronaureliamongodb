@@ -20,8 +20,8 @@
         mainWindow = new BrowserWindow({
             width: 900,
             height: 700,
-            "min-width": 900,
-            "min-height": 700,
+            "min-width": 400,
+            "min-height": 300,
             center: true,
             resizable: true
         });
